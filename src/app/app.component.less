@@ -1,0 +1,31 @@
+.defautBoxS{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+#topBar{
+    .defautBoxS;
+    height: 44px;
+    line-height: 44px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    border-bottom: solid 1px #eee;
+    li{
+        white-space: nowrap;
+        list-style: none;
+        margin: 0 5px;
+    }
+    a{
+        text-decoration: none;
+    }
+}
+.active{
+    color: red;
+}
